@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/hamb-1.png" />
+
+
+    <!-- TOASTIFY -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/output.css">
+    <title>Langu's Burger</title>
+
+    <!-- META TAGS OG -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Langu's Burger - Your snack pal!"/>
+    <meta property="og:image" content="/assets/hamb-1.png"/>
+    <meta property="og:description" content="Delicious homemade burgers! Enjoy!"/>
+    <meta property="og:site_name" content="Langu's Burger"/>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-zinc-900 bg-header bg-cover bg-center">
+        <div class="w-full h-full flex flex-col items-center justify-center ">
+            <img src="/assets/hamb-1.png" alt="logo Langus Burger"
+            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-300">
+            <h1 class="font-bold text-4xl mt-4 mb-2 text-white">Langu's Burger!</h1>
+            <span class="text-white font-medium">R. das Flores, 953 - Bairro Florestal</span>
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Seg a sexta -  17:00 às 23:00</span>
+            </div>
+        </div>
+
+    </header>
+    <!-- HEADER END -->
+
+    <h2 class="md:text-4xl flex justify-center font-bold text-2xl mt-9 mb-6">Conheça nosso menu</h2>
+
+    <!-- MENU -->
+    <div id="menu" class="mb-20">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2">
+
+            <!-- Stella -->
+            <div class="flex gap-2">
+                <img src="/assets/hamb-1.png" alt="Burger Stella" class="w-28 h-28 rounded-lg hover:scale-105 hover:rotate-1 duration-300">
+                <div>
+                    <p class="font-bold">Burger Stella</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas!</p>
+                </div>
+                <div class="flex items-center justify-between gap-2 mt-3 ml-auto">
+                    <p class="font-bold text-lg">$10.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Burger Stella" data-price="10.90">
+                        <i class="fa fa-cart-plus text-white text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Oliver -->
+            <div class="flex gap-2">
+                <img src="/assets/hamb-2.png" alt="Burger Oliver" class="w-28 h-28 rounded-lg hover:scale-105 hover:rotate-1 duration-300">
+                <div>
+                    <p class="font-bold">Burger Oliver</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas!</p>
+                </div>
+                <div class="flex items-center justify-between gap-2 mt-3 ml-auto">
+                    <p class="font-bold text-lg">$15.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Burger Oliver" data-price="15.90">
+                        <i class="fa fa-cart-plus text-white text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Alan -->
+            <div class="flex gap-2">
+                <img src="/assets/hamb-3.png" alt="Burger Alan" class="w-28 h-28 rounded-lg hover:scale-105 hover:rotate-1 duration-300">
+                <div>
+                    <p class="font-bold">Burger Alan</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas!</p>
+                </div>
+                <div class="flex items-center justify-between gap-2 mt-3 ml-auto">
+                    <p class="font-bold text-lg">$11.80</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Burger Alan" data-price="11.80">
+                        <i class="fa fa-cart-plus text-white text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Elise -->
+            <div class="flex gap-2">
+                <img src="/assets/hamb-4.png" alt="Burger Elise" class="w-28 h-28 rounded-lg hover:scale-105 hover:rotate-1 duration-300">
+                <div>
+                    <p class="font-bold">Burger Elise</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas!</p>
+                </div>
+                <div class="flex items-center justify-between gap-2 mt-3 ml-auto">
+                    <p class="font-bold text-lg">$18.80</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Burger Elise" data-price="18.80">
+                        <i class="fa fa-cart-plus text-white text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- DRINKS -->
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl mt-8">Bebidas</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2" id="drinks">
+
+            <div class="flex gap-2">
+                <img src="/assets/refri-1.png" alt="Cola Drink" class="w-28 h-28 rounded-lg hover:scale-105 hover:rotate-1 duration-300">
+                <div>
+                    <p class="font-bold">Cola Drink</p>
+                    <p class="text-sm">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="flex items-center justify-between gap-2 mt-3 ml-auto">
+                    <p class="font-bold text-lg">$5</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Cola Drink" data-price="5">
+                        <i class="fa fa-cart-plus text-white text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="/assets/refri-2.png" alt="Guarana Drink" class="w-28 h-28 rounded-lg hover:scale-105 hover:rotate-1 duration-300">
+                <div>
+                    <p class="font-bold">Guarana Drink</p>
+                    <p class="text-sm">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="flex items-center justify-between gap-2 mt-3 ml-auto">
+                    <p class="font-bold text-lg">$5</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Guarana Drink" data-price="5">
+                        <i class="fa fa-cart-plus text-white text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MENU END -->
+
+
+    <!-- BUTTON FOOTER -->
+    <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
+            (<span id="cart-count">0</span>)
+            See My Cart
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+    </footer>
+
+
+    <!-- MODAL CART -->
+    <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">My Cart</h2>
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+            <p class="font-bold">Total:  <span id="cart-total">0.00</span></p>
+            <p class="font-bold mt-4">Adress:</p>
+            <input type="text" placeholder="Type your adress..." id="adress-input" class="w-full border-2 p-1 rounded my-1">
+            <p id="adress-warn" class="text-red-500 hidden">Type your full adress</p>
+
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="exit-modal-btn">Exit</button>
+                <button id="confirm-modal-btn" class="bg-green-500 text-white px-4 py-1 rounded">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="script.js"></script>
+</body>
+</html>
