@@ -75,7 +75,7 @@ function updateCartModal(){
       </div>
 
       <button class="remove-button" data-name="${item.name}">
-        Remover
+        Remove
       </button>
     </div>
     `
