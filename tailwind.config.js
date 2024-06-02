@@ -2,8 +2,8 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    fontFamily:{
-      'sans': ['Poppins', 'sans-serif']
+    fontFamily: {
+      sans: ["Poppins", "sans-serif"],
     },
     extend: {
       backgroundImage: {
@@ -11,6 +11,15 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".overflow-hidden": {
+          overflow: "hidden",
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };
 

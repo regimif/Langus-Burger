@@ -17,15 +17,20 @@ let cart = []
 cartButton.addEventListener('click', function(){
   updateCartModal()
     cartModal.style.display = "flex";
+    document.body.classList.add("overflow-hidden")
 })
 
 exitModalButton.addEventListener('click', function(){
     cartModal.style.display = "none";
+    document.body.classList.remove("overflow-hidden");
+
 })
 
 cartModal.addEventListener('click', function(e){
     if(e.target === cartModal){
         cartModal.style.display = "none"
+        document.body.classList.remove("overflow-hidden");
+
     }
 })
 

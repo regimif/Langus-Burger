@@ -909,6 +909,10 @@ video {
   height: 100%;
 }
 
+.max-h-\[80vh\] {
+  max-height: 80vh;
+}
+
 .w-28 {
   width: 7rem;
 }
@@ -2676,6 +2680,10 @@ video {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 body{
