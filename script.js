@@ -191,8 +191,6 @@ confirmModalButton.addEventListener("click", function(){
   }, 3000);
 })
 
-
-
 // Check if store is open
 function checkStoreOpen(){
   const date = new Date()
@@ -211,26 +209,3 @@ else{
   spanItem.classList.remove("bg-green-600");
   spanItem.classList.add("bg-red-500");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Update Cart Count Test \/
-
-// const addToCartButtons = document.getElementsByClassName("add-to-cart-btn");
-// let count = 0
-// for (let i = 0; i < addToCartButtons.length; i++) {
-//   addToCartButtons[i].addEventListener("click", function () {
-//     count++
-//     cartCount.innerText = count.toString();
-//   });
-// }
