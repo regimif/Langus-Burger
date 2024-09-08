@@ -10,6 +10,16 @@ git clone https://github.com/regimif/Langus-Burger.git
 ```
 Alternatively, you can view the live version hosted on `Vercel` [here](https://menu-regimifs-projects.vercel.app/).
 
+### Screenshots:
+**Desktop Version:**
+
+![Desktop Screenshot](https://github.com/user-attachments/assets/269a5467-4380-49e7-852f-e7aaaa6a9d7f)
+
+**Mobile Version:**
+
+![Mobile Screenshot](https://github.com/user-attachments/assets/0379f850-ffe6-4a39-b0ba-31d914eea376)
+
+
 ### Usage:
 1. **Adding Items to the Cart**:
    - Browse the menu and click on the cart icon next to any available item to add it to your cart.
@@ -49,3 +59,6 @@ I welcome contributions to Langu's Burger! If you would like to contribute, plea
 3. **Review Guidelines**: Before contributing, please review the existing codebase and documentation to understand the project's structure and coding conventions.
 
 Thank you for your interest in contributing!
+
+### License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
