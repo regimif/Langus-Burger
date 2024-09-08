@@ -1,16 +1,16 @@
-## Langu's Burger
+# Langu's Burger
 
-### Description:
+## Description:
 <b>Langu's Burger</b> is a mock online burger shop, built with `JavaScript` and `Tailwind CSS`, that integrates with the `WhatsApp API` to process orders and send confirmations.
 
-### Installation:
+## Installation:
 To run this project locally, simply clone the repository and open the `index.html` file in your browser.
 ```bash
 git clone https://github.com/regimif/Langus-Burger.git
 ```
 Alternatively, you can view the live version hosted on `Vercel` [here](https://menu-regimifs-projects.vercel.app/).
 
-### Screenshots:
+## Screenshots:
 **Desktop Version:**
 
 ![Desktop Screenshot](https://github.com/user-attachments/assets/269a5467-4380-49e7-852f-e7aaaa6a9d7f)
@@ -20,7 +20,7 @@ Alternatively, you can view the live version hosted on `Vercel` [here](https://m
 ![Mobile Screenshot](https://github.com/user-attachments/assets/0379f850-ffe6-4a39-b0ba-31d914eea376)
 
 
-### Usage:
+## Usage:
 1. **Adding Items to the Cart**:
    - Browse the menu and click on the cart icon next to any available item to add it to your cart.
 
@@ -42,14 +42,14 @@ Please note that orders can only be processed while the store is open!
 (you can check the store hours at the top of the screen).
 ```
 
-### Technologies Used:
+## Technologies Used:
 - **JavaScript**: For implementing the interactive features and functionality.
 - **HTML**: For structuring the content of the web pages.
 - **Tailwind CSS**: For styling and responsive design.
 - **Toastify**: For enhanced and stylish alerts on the page.
 - **WhatsApp API**: For processing orders and sending confirmations.
 
-### Contributing:
+## Contributing:
 I welcome contributions to Langu's Burger! If you would like to contribute, please follow these guidelines:
 
 1. **Report Issues**: If you encounter any bugs or have suggestions for improvements, please open an issue on the [GitHub Issues page](https://github.com/regimif/Langus-Burger/issues).
@@ -60,5 +60,5 @@ I welcome contributions to Langu's Burger! If you would like to contribute, plea
 
 Thank you for your interest in contributing!
 
-### License:
+## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
